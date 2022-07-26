@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-logo{
+    flex-grow: 1;
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links{
+    flex:1;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover{
+    color: #45a29e;
+}

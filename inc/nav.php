@@ -16,7 +16,7 @@
 <div class="nav">
     <div class="nav-bar">
         <div class="nav-logo">
-            <h1><a href="./">Hot Bean<a></h1>
+            <h1><a href="./">Hot Beans<a></h1>
         </div>
         <div class="nav-links">
             <ul>

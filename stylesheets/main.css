@@ -5,6 +5,30 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-color: #1f2833;
+}
+
+button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border-style: none;
+    color: #1f2833;
+    background-color: #66fcf1;
+    border: 1px solid #66fcf1;
+    transition-duration: 0.4s;
+    position: relative;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #1f2833;
+}
+
+button:active{
+    top: 1px;
 }

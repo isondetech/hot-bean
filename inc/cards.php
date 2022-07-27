@@ -10,7 +10,7 @@
                     <div class='card-img'>
                         <img src='$img' alt='avatar-icon'>
                     </div>
-                    <h5>$title</h5>
+                    <h6>$title</h6>
                     <h3>$sub_title</h3>
                     <p>$desc</p>
                 </div>";
@@ -21,7 +21,7 @@
             $card_html= "
             <div class='card'>
             <h3>$title</h3>
-            <a href='$cta_href'><button>$cta_name</button><a>
+            <a target='_blank' href='$cta_href'><button type='button'>$cta_name</button></a>
             <p>$desc</p>
             </div>";
             array_push($this->cards, $card_html);
@@ -31,7 +31,9 @@
             $cards = implode($this->cards);
             echo "
             <div class='cards-container'>
-            <h2>$title</h2>
+            <div class='cards-title'>
+                <h2>$title</h2>
+            </div>
             <div class='card-container'>
             $cards
             </div>

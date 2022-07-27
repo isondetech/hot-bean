@@ -18,7 +18,7 @@ class Section{
                     <h2>$this->title</h2>
                     <p>$this->desc</p>
                     <div>
-                        <a href='$this->cta_href'><button>$this->cta_name</button><a>
+                        <a href='$this->cta_href'><button type='button'>$this->cta_name</button></a>
                     </div>
                 </div>
             </div>";

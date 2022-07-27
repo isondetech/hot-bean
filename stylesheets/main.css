@@ -7,6 +7,8 @@
 
 body {
     background-color: #1f2833;
+    position: relative;
+    min-height: 100vh;
 }
 
 button{
@@ -16,9 +18,9 @@ button{
     margin-bottom: 20px;
     border-radius: 3px;
     border-style: none;
-    color: #1f2833;
-    background-color: #66fcf1;
-    border: 1px solid #66fcf1;
+    color: #ffffff;
+    background-color: #1f2833;
+    border: 1px solid #1f2833;
     transition-duration: 0.4s;
     position: relative;
 }

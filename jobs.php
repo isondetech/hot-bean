@@ -2,6 +2,7 @@
 <?php include "inc/nav.php";?>
 <?php include "inc/section.php";?>
 
+
 <?php
     $title = "Front-end developer";
     $desc = 
@@ -14,3 +15,4 @@
     $body = new Section($title, $desc, "Apply", "apply.php");
     $body->create();
 ?>
+<?php include "inc/footer.php";?>

@@ -1,7 +1,6 @@
 .main-container{
     display: flex;
     color: #ffffff;
-    height: 300px;
     justify-content: center;
 }
 
@@ -32,7 +31,7 @@
     width: 10%;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border-radius: 3px;
     border-style: none;
     color: #1f2833;
@@ -46,6 +45,14 @@ section a{
     width: 10%;
 }
 
+.section-end{
+    display: flex;
+    justify-content: center;
+}
+.section-end hr{
+    width: 80%;
+    background-color: #1f2833;
+}
 .section button:hover{
     cursor: pointer;
     background-color: #1f2833;

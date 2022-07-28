@@ -6,7 +6,7 @@
 
 <?php
     $section = array(
-        "title" => "Submitted",
+        "title" => "Welcome",
         "desc" =>
         "Hot Beans is a software engineering company
         looking to hire the best of the best.

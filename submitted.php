@@ -4,9 +4,9 @@
 
 <?php
 
-$name = !$_GET["fname"]== "" ? htmlspecialchars($_GET["fname"]): "user";
+$name = htmlspecialchars($_GET["fname"]);
 $section = array(
-    "title" => "Submitted",
+    "title" => "Submitted!",
     "desc" => "Hey $name, your application has been submitted, we'll get back to
     you shortly.",
     "cta_name"=>"Home",
